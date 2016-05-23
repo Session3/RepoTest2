@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					6DE3F24E1CF34113008E7A57 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = ZB25HR445B;
 					};
 					6DE3F2621CF34114008E7A57 = {
 						CreatedOnToolsVersion = 7.3;
@@ -401,9 +402,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = CaptainProf/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Cedric.CaptainProf;
+				PRODUCT_BUNDLE_IDENTIFIER = "CAII-CLOUD";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -412,9 +414,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = CaptainProf/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Cedric.CaptainProf;
+				PRODUCT_BUNDLE_IDENTIFIER = "CAII-CLOUD";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -484,6 +487,7 @@
 				6DE3F2791CF34114008E7A57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6DE3F27A1CF34114008E7A57 /* Build configuration list for PBXNativeTarget "CaptainProfTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +496,7 @@
 				6DE3F27C1CF34114008E7A57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6DE3F27D1CF34114008E7A57 /* Build configuration list for PBXNativeTarget "CaptainProfUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +505,7 @@
 				6DE3F27F1CF34114008E7A57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
