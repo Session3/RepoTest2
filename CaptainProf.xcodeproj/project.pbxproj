@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6DB82F571CF4594200CCC0C4 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DB82F561CF4594200CCC0C4 /* CloudKit.framework */; };
 		6DE3F2531CF34114008E7A57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE3F2521CF34114008E7A57 /* AppDelegate.swift */; };
 		6DE3F2551CF34114008E7A57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE3F2541CF34114008E7A57 /* ViewController.swift */; };
 		6DE3F2581CF34114008E7A57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DE3F2561CF34114008E7A57 /* Main.storyboard */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6DB82F551CF454CB00CCC0C4 /* CaptainProf.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = CaptainProf.entitlements; sourceTree = "<group>"; };
+		6DB82F561CF4594200CCC0C4 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		6DE3F24F1CF34113008E7A57 /* CaptainProf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaptainProf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DE3F2521CF34114008E7A57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6DE3F2541CF34114008E7A57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DB82F571CF4594200CCC0C4 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +81,7 @@
 		6DE3F2461CF34113008E7A57 = {
 			isa = PBXGroup;
 			children = (
+				6DB82F561CF4594200CCC0C4 /* CloudKit.framework */,
 				6DE3F2511CF34114008E7A57 /* CaptainProf */,
 				6DE3F2661CF34114008E7A57 /* CaptainProfTests */,
 				6DE3F2711CF34114008E7A57 /* CaptainProfUITests */,
@@ -97,6 +102,7 @@
 		6DE3F2511CF34114008E7A57 /* CaptainProf */ = {
 			isa = PBXGroup;
 			children = (
+				6DB82F551CF454CB00CCC0C4 /* CaptainProf.entitlements */,
 				6DE3F2521CF34114008E7A57 /* AppDelegate.swift */,
 				6DE3F2541CF34114008E7A57 /* ViewController.swift */,
 				6DE3F2561CF34114008E7A57 /* Main.storyboard */,
@@ -194,6 +200,11 @@
 					6DE3F24E1CF34113008E7A57 = {
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = ZB25HR445B;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 					6DE3F2621CF34114008E7A57 = {
 						CreatedOnToolsVersion = 7.3;
@@ -402,6 +413,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CaptainProf/CaptainProf.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = CaptainProf/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -414,6 +426,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CaptainProf/CaptainProf.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = CaptainProf/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
