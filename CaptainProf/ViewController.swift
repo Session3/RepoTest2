@@ -18,6 +18,7 @@ class ViewController: UIViewController {
         print("Ok")
         testKit()
         print("toto")
+        //test repo depuis dossier testrepo
     }
 
     override func didReceiveMemoryWarning() {
