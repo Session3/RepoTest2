@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D9D0B511CF5F387005AB159 /* Etudiant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9D0B501CF5F387005AB159 /* Etudiant.swift */; };
 		6DB82F571CF4594200CCC0C4 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DB82F561CF4594200CCC0C4 /* CloudKit.framework */; };
 		6DE3F2531CF34114008E7A57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE3F2521CF34114008E7A57 /* AppDelegate.swift */; };
 		6DE3F2551CF34114008E7A57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE3F2541CF34114008E7A57 /* ViewController.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6D9D0B501CF5F387005AB159 /* Etudiant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Etudiant.swift; sourceTree = "<group>"; };
 		6DB82F551CF454CB00CCC0C4 /* CaptainProf.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = CaptainProf.entitlements; sourceTree = "<group>"; };
 		6DB82F561CF4594200CCC0C4 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		6DE3F24F1CF34113008E7A57 /* CaptainProf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaptainProf.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -81,6 +83,7 @@
 		6DE3F2461CF34113008E7A57 = {
 			isa = PBXGroup;
 			children = (
+				6D9D0B501CF5F387005AB159 /* Etudiant.swift */,
 				6DB82F561CF4594200CCC0C4 /* CloudKit.framework */,
 				6DE3F2511CF34114008E7A57 /* CaptainProf */,
 				6DE3F2661CF34114008E7A57 /* CaptainProfTests */,
@@ -270,6 +273,7 @@
 			files = (
 				6DE3F2551CF34114008E7A57 /* ViewController.swift in Sources */,
 				6DE3F2531CF34114008E7A57 /* AppDelegate.swift in Sources */,
+				6D9D0B511CF5F387005AB159 /* Etudiant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
