@@ -18,6 +18,7 @@ class ViewController: UIViewController {
         print("Ok")
         testKit()
         print("toto")
+        print("MEUHHHHHH")
         //test repo depuis dossier testrepo
     }
 
